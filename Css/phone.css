@@ -1,0 +1,17 @@
+/* {
+    background-color: yellow;
+} */
+
+/* Home section */
+#home{
+
+}
+/* services section */
+#servies .box{
+    display: flex;
+    flex-direction: column;
+}
+/* clintes section */
+#clients{
+
+}

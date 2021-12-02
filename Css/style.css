@@ -1,0 +1,226 @@
+/* css reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background: rgb(115 ,211, 255); */
+}
+/* variables  */
+:root{
+    --navbar-height: 60px;
+}
+/* navigation bar */
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position:relative;
+  
+}
+#navbar::before{
+    background-color: rgb(12, 12, 1);
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+/* navigation bar:logo */
+#logo{
+    height: 100px;
+    margin: 10px 40px;
+}
+/* navigation bar:img */
+
+.logo img{
+    height: 95px;
+    width: 95;
+
+}
+/* navigation bar:listing */
+#navbar ul{
+    display: flex;
+    font-family:sans-serif, Verdana, Geneva, Tahoma;
+
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    
+}
+#navbar ul li a{
+    display: block;
+    padding: 3px 34px;
+    border-radius: 13px;
+    color: white;
+    text-decoration: none;
+
+
+}
+#navbar ul li a:hover{
+    
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+/* Home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    height: 78%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.8;
+    background: url(../img/bgsim.jpg) no-repeat center center/cover;
+}
+/* Services Section */
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid brown;
+    padding: 32px;
+    margin: 3px 6px;
+    border-radius: 23px;
+    background-color: rgba(238, 206, 206, 0.411);
+
+}
+#services .box img{
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+#services .box p{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+/* Clint section */
+#client-section{
+    height: 255px;
+    
+
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url(../img/bg2.jpg) center center/cover;
+    width: 100%;
+    height: 49%;
+    z-index: -1;
+    opacity: .5;
+}
+#clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 222px;
+   
+}
+#clients img{
+   height: 124px;
+}
+#client-items{
+    padding: 34px;
+}
+/* contact section */
+#contact{
+    position: absolute;
+
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height:100%;
+    z-index: -1;
+    opacity: 0.6;
+    background:black;
+
+}
+footer {
+    background: black;
+    color: white;
+    padding: 10px 6px;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#contact-box form{
+    width: 50%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 15px;
+}
+#bbtn{
+    display: flex;
+    padding: 5px;
+    border-radius:9px ;
+    width: 79px;
+    background-color: rgba(195, 221, 245, 0.685);
+    position: relative;
+    margin: auto;
+    align-items: center;
+}
+
+
+
+/* Utility classes */
+#home h1{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-family: cursive;
+}
+#home p{  
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: cursive;
+}
+.btn{
+    padding: 7px 30px;
+    margin: 20px 5px;
+    color: white;
+    background-color: green;
+    border: 2px solid white;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+.h-primary{
+    font-size: 2.4rem;
+    padding: 12px;
+    font-family: cursive;    
+}
+.h-secondary{
+    font-size: 1.7rem;
+    padding: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
