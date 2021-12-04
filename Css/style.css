@@ -137,7 +137,7 @@
 }
 /* contact section */
 #contact{
-    position: absolute;
+    position: relative;
 
 }
 #contact::before{

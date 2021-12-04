@@ -1,17 +1,17 @@
 /* {
     background-color: yellow;
 } */
+/* Navigation */
+#navbar{
+    /* flex-direction: column; */
+}
 
 /* Home section */
 #home{
-
+    /* height: 250px; */
 }
 /* services section */
 #servies .box{
-    display: flex;
-    flex-direction: column;
+   
 }
 /* clintes section */
-#clients{
-
-}
