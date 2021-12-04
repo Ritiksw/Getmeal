@@ -3,15 +3,59 @@
 } */
 /* Navigation */
 #navbar{
-    /* flex-direction: column; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 8px;
+}
+
+#navbar ul{
+    padding: 0%;
+    flex-wrap: wrap;
+}
+#navbar ul li a {
+    font-size: 1em;
 }
 
 /* Home section */
 #home{
-    /* height: 250px; */
+    height: 350px;
+    padding: 2px 10px;
+    overflow: hidden;
+}
+#home h1{
+    padding: 2px 2px;
+
+}
+#home ::before{
+    height: 230px;
 }
 /* services section */
-#servies .box{
-   
+#services {
+    flex-direction: column;
 }
-/* clintes section */
+#services .box img {
+    height: 10vh;
+}
+#service-container{
+    padding: 0%;
+}
+.box{
+    padding: 2px;
+}
+
+/* clientes section */
+#clients{
+    flex-wrap: wrap;
+}
+#client-items{
+    flex-wrap: wrap;
+    padding: 3px 2px ;
+}
+#clients img{
+    padding: 3px 5px;
+    width: 60px;
+    height: auto;
+}
+
+
+
